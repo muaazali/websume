@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: gray;
+}
+
+.main {
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.text-green {
+    color: #00bfa2;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.image-glow {
+    border: solid 5px #85e5d6;
+    filter: drop-shadow(0px 0px 25px rgb(0 191 162 / 1));
+}
