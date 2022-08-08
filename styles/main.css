@@ -15,6 +15,10 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+.font-roboto-cd {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .image-glow {
     border: solid 5px #85e5d6;
     filter: drop-shadow(0px 0px 25px rgb(0 191 162 / 1));
