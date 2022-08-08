@@ -7,29 +7,30 @@
     <title>Websume - Syed Muaaz Ali</title>
     <link rel="stylesheet" href="styles/main.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="scripts/fontawesome.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
-<body>
-    <div class="main bg-gray-100 p-10">
+<body class="flex justify-center items-center bg-gray-800">
+    <div class="main bg-gray-100 p-10 m-5 md:m-10 xl:w-3/4 shadow-xl">
         <!-- Contact -->
-        <div class="text-right font-light tracking-widest text-sm">
+        <div class="text-center md:text-right font-light tracking-widest text-sm">
             <div>
                 <span>+92 320 3717189</span> <i class="fas fa-phone ml-2 text-green"></i>
             </div>
             <div>
-                <span>muaazali512@gmail.com</span> <i class="fas fa-envelope ml-2 text-green"></i>
+                <span><a href="mailto:muaazali512@gmail.com">muaazali512@gmail.com</a></span> <i class="fas fa-envelope ml-2 text-green"></i>
             </div>
             <div>
-                <span>muaazali.github.io</span> <i class="fas fa-globe ml-2 text-green"></i>
+                <span><a href="https://muaazali.github.io" target="_blank">muaazali.github.io</a></span> <i class="fas fa-globe ml-2 text-green"></i>
             </div>
         </div>
 
         <!-- Header -->
-        <div class="flex justify-between mt-20 items-center">
-            <div class="uppercase font-light tracking-widest">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between mt-20 items-center">
+            <div class="uppercase font-light tracking-widest text-center md:text-left mt-20 md:mt-0">
                 <div>
                     Hello! I'm
                 </div>
@@ -40,6 +41,44 @@
             </div>
             <div>
                 <img src="images/profile_photo.jfif" class="w-48 h-48 rounded-full image-glow">
+            </div>
+        </div>
+
+        <!-- Profile and Expertise -->
+        <div class="grid gap-8 md:grid-cols-2 mt-20">
+            <div class="">
+                <div class="text-3xl font-semibold text-green font-oswald tracking-wide">About Me</div>
+                <div class="my-2 font-light">
+                    A gamer at heart with a computer science degree in hands and years of industry experience under my belt, I'm a web and game developer
+                    with the knowledge and experience JS and its multiple frameworks, Python, and Unity.
+                </div>
+            </div>
+            <div class="">
+                <div class="text-3xl font-semibold text-green font-oswald tracking-wide">Areas of Expertise</div>
+                <div class="my-2 flex flex-wrap text-sm">
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">Web Servers</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">Web Applications</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">REST APIs</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">Web Sockets</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">Serverless Services</span>
+                </div>
+                <hr class="bg-gray-700 border border-gray-300">
+                <div class="my-2 flex flex-wrap text-sm">
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">2D/3D Games</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">Multi-platform Games</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full">Hypercasual Games</span>
+                </div>
+                <hr class="bg-gray-700 border border-gray-300">
+                <div class="my-2 flex flex-wrap text-sm">
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Unity</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">React</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Angular</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Express</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Flask</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Mux</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Firebase</span>
+                    <span class="px-2 py-1 mb-1 mr-1 bg-gray-300 rounded-full flex items-center">Android</span>
+                </div>
             </div>
         </div>
     </div>
